@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    height: 50px;
+    margin-left: 30px;
+    
+}
+
+
+
+.header1{
+    min-width: 300px;
+}
+
+
+
+nav{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0px 5px;
+    
+    
+    
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+    background-color: white ;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background: blue;
+    color: white;
+}
+
+.welcome{
+    color: white;
+    background-color: blue;
+    border-radius: 45px;
+    padding: 5px 10px;
+    animation-name: welcome;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes welcome{
+     
+    0%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: green
+    }
+
+    100%{
+        background-color: blue;
+    }
+}
+
+
+
+
+.in{
+    color: white;
+    background-color: green;
+    border-radius: 45px;
+    padding: 5px 10px;
+    animation-name: in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes in{
+     
+    0%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: green;
+    }
+
+}
+
+
+.football{
+    color: white;
+    background-color: yellow;
+    border-radius: 45px;
+    padding: 5px 10px;
+    animation-name: football;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes football{
+     
+    0%{
+        background-color: yellow;
+    }
+
+    50%{
+        background-color: rgb(6, 177, 6);
+    }
+
+    100%{
+        background-color: yellow;
+    }
+}
+
+.welcome1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.rules{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: red;
+    background-color: rgb(59, 59, 59);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.ulrule{
+    margin-left: 30px;
+}
+
+ul li{
+    margin-top: 15px;
+}
+
+
+.stadium{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: yellow;
+    background-color: rgb(59, 59, 59);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+
+.stadiums{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.stadiums2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.stadh2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.players{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(7, 187, 7);
+    background-color: rgb(59, 59, 59);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+.card1:hover{
+  background-color: blueviolet;
+}
+
+.card2:hover{
+    background-color: blue;
+  }
+
+  .card3:hover{
+    background-color: green;
+  }
+
+  .card4:hover{
+    background-color:  yellow;
+  }
+
+  .card5:hover{
+    background-color: rgb(238, 50, 50);
+  }
+
+  .card6:hover{
+    background-color: rgb(201, 133, 8);
+  }
+
+
+  .playercard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+
+.playercard2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.class{
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 35px;
+    margin-bottom: 30px;
+    background-color: yellow;
+    
+    padding: 5px 10px;
+    border-radius: 10px;
+  }

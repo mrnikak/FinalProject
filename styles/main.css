@@ -1,0 +1,265 @@
+.logo{
+    height: 50px;
+    margin-left: 30px;
+    
+}
+
+
+
+.header1{
+    min-width: 300px;
+}
+
+
+
+nav{
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0px 5px;
+    
+    
+    
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+    background-color: white ;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background: blue;
+    color: white;
+}
+
+
+
+
+h1{
+    color: black;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    
+}
+h4{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5px 10px ;
+    border-radius: 10px;
+}
+.blue{
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    padding: 5px 10px ;
+    border-radius: 10px;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    padding: 5px 10px ;
+    border-radius: 10px;
+}
+
+.yellow{
+    display: flex;
+    justify-content: center;
+    border: 2px solid yellow;
+    padding: 5px 10px ;
+    border-radius: 10px;
+}
+
+
+
+
+
+.fs{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    
+    
+}
+
+.sc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 10px 15px;
+    max-width: 700px;
+    margin-left: 60%;
+    
+    
+}
+
+.insidesection{
+    
+    margin: 5px;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    padding: 10px 10px;
+}
+
+.pclass{
+    font-weight: 900;
+}
+
+.messicard{
+    margin-top: 250px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.messicard:hover{
+    width: 500px;
+    height: 800px;
+
+}
+
+
+.lebroncard{
+    margin-top: 250px;
+    margin-left: 75px;
+    display: inline-block;
+}
+
+
+.rugbycard{
+    margin-top: 250px;
+    margin-left: 75px;
+    display: inline-block;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 25, 161);
+    text-shadow: rgb(3, 104, 107) 6px 6px 3px;
+    padding: 33px;
+    
+}
+
+.cardtitle{
+    text-shadow: yellow 24px 24px 7px;
+}
+
+.fromgeorgia{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: red;
+    font-weight: 900;
+}
+
+
+
+.kvaracard{
+    margin-top: 450px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.mamucard{
+    margin-top: 250px;
+    margin-left: 75px;
+    display: inline-block;
+}
+
+
+.merabcard{
+    margin-top: 250px;
+    margin-left: 75px;
+    display: inline-block;
+}
+
+.georgiacards{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 25, 25);
+    text-shadow: rgb(255, 30, 0) 6px 6px 3px;
+    padding: 33px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+footer p{
+    color: white;
+    font-weight: 900;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtitle{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    
+}
+
+.cardtitle1{
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+
+button{
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    
+}
+
+input{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 450px;
+}
+
